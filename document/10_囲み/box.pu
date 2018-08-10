@@ -1,0 +1,22 @@
+@startuml
+box "internal api" #f66
+  participant A
+  participant B
+end box
+box "external api" #66f
+  participant C
+  participant D
+end box
+A -> B
+activate B
+B -> C
+activate C
+C -> D
+activate D
+C <- D
+deactivate D
+B <- C
+deactivate C
+A <- B
+deactivate B
+@enduml

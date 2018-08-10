@@ -1,3 +1,16 @@
 @startuml
 A -> B
+activate B
+B -> B
+activate B
+B -> C
+activate C
+C -> D
+activate D
+C <- D
+destroy D
+B <- C
+deactivate C
+A <- B
+deactivate B
 @enduml
