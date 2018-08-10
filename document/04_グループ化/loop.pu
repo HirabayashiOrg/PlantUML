@@ -1,0 +1,7 @@
+@startuml
+A -> B : message1
+loop 1000times
+  A -> B : message2
+end
+A -> B : message3
+@enduml

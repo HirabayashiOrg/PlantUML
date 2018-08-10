@@ -1,0 +1,10 @@
+@startuml
+actor A
+actor B
+ref over A,B : reference1
+
+ref over B
+  this is reference
+  written multi lines.
+end ref
+@enduml

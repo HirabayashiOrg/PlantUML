@@ -1,0 +1,7 @@
+@startuml
+A -> B : message1
+== border1 ==
+A -> B : message2
+== border2 ==
+A -> B : message3
+@enduml

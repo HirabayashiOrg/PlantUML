@@ -1,0 +1,7 @@
+@startuml
+A -> B : message1
+...
+A -> B : message2
+... 5 minute later
+A -> B : message3
+@enduml

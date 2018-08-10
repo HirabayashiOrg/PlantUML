@@ -1,0 +1,7 @@
+@startuml
+A -> B : message 1
+A -> B : message 2
+newpage
+A -> B : message 3
+A -> B : message 4
+@enduml

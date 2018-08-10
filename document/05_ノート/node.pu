@@ -1,0 +1,9 @@
+@startuml
+A -> B : message1
+note left : note1
+A <- B : message2
+note right
+  this is note
+  written multi rows
+end note
+@enduml
