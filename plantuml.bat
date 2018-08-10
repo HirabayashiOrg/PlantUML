@@ -1,1 +1,1 @@
-java -jar plantuml.jar
+java -jar plantuml.jar *.pu -charset UTF-8
