@@ -1,0 +1,16 @@
+@startuml
+actor Actor as A
+boundary Boundary as B
+control Control as C
+entity Entity as D
+database Database as E
+collections Collections as F
+participant Participant as G
+'as を使うことで別名を付与することができる
+A -> B
+A -> C
+A -> D
+A -> E
+A -> F
+A -> G
+@enduml
