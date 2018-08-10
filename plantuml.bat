@@ -1,1 +1,1 @@
-java -jar plantuml.jar *.pu -charset UTF-8
+for /R %%i in (*.pu) do ( java -jar plantuml.jar %%i -charset UTF-8 )
